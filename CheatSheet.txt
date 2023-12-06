@@ -10,3 +10,8 @@ Comandos para la creación y uso de entorno virtual virtualenv:
   python -m venv nombreDeMiEntorno  //creamos entorno virtual asignando el nombre deseado
   ./nombreDeMiEntorno/Scripts/activate  //activamos entorno virtual creado
   deactivate //desactivo entorno virtual utilizado
+
+Comandos para instalación de Django (en entorno virtual y global):
+  pip install django  //utilizamos pip para instalar Django
+  pip freeze  //comprobamos que se encuentre instalado
+
