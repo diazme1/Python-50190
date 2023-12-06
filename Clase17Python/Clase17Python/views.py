@@ -14,3 +14,8 @@ def dia_de_hoy(request):
     textoHtml = f'Hoy es: <br></br> {dia}' #incluimos un parámetro que varía según la información asignada a la variable dia
 
     return HttpResponse(textoHtml)
+
+def saludo_nombre(request, nombre):
+    textoHtml = f'Hola, {nombre}!!'
+
+    return HttpResponse(textoHtml)
