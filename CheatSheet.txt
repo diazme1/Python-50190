@@ -1,9 +1,8 @@
 Comandos para creación de repositorio Git y sincronización con GitHub:
   git init  //inicializamos repositorio local 
-  git add README.md  //agregamos el README del repositorio
+  git add *  //realizamos primer add para posterior commit
   git commit -m "first commit"  //realizamos primer commit local
   git branch -M main  //modificamos nombre de la rama master del repositorio local, a main
   git remote add origin https://github.com/diazme1/Python-50190.git  //agregamos un acceso a repositorio remoto (al cual sincronizamos)
   git push -u origin main  //realizamos el push correspondiente del repositorio local al repositorio remoto
 
-  
